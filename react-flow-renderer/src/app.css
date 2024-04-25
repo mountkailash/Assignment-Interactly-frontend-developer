@@ -1,0 +1,42 @@
+.node {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.x-icon {
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+
+}
+
+.x-icon:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.edge-icon {
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 150px;
+
+}
+
+.edge-icon:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: red;
+}
